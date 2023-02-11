@@ -1,0 +1,163 @@
+@media screen and (max-width:1020px) {
+    .nav_list {
+        flex-direction: column;
+        position: fixed;
+        left: -300px;
+        background: rgba(0, 0, 0, .5);
+        margin-top: 0;
+        gap: 20px;
+        width: 200px;
+        height: 50vh;
+        text-align: center;
+        padding-top: 100px;
+        transition: 0.6s ease-in-out;
+    }
+
+    nav {
+        border-bottom: none;
+    }
+
+    .logo {
+        text-align: center;
+        width: 100%;
+    }
+
+    .header_icons_container {
+        margin-right: auto;
+    }
+
+    #nav_check {
+        display: none;
+    }
+
+    #nav_check:checked~.nav_list {
+        left: 0;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .header_left_head_contetnt h1 {
+        font-size: 3.2rem;
+    }
+
+    .header_left_head_contetnt p {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:407px) {
+    .inp_icon {
+        width: 200px;
+    }
+
+    .inp_icon input {
+        width: 85%;
+
+
+    }
+
+    .header_icons_container {
+        max-width: 400px;
+    }
+
+}
+
+@media screen and (max-width:1110px) {
+    .main_container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .grid_container {
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+    /* .slider_container {
+        margin-left: 20px;
+        margin-right: 20px;
+
+    } */
+}
+@media screen and (max-width:1020px) {
+    .footer_list{
+        flex-direction: column;
+        text-align: center;
+    }
+   
+}
+
+
+@media screen and (max-width:500px) {
+    .ptomoteds_button button{
+        font-size: 1.4rem;
+    }
+    .ptomoteds_button .recent{
+        font-size: 1.8rem;
+    }
+    .ptomoteds_button{
+        max-width: 400px;
+    }
+   /* .center_container{
+    max-width: 260px;
+    background-color: red;
+   } */
+   .left_container{
+    max-width: 400px;
+   }
+   .right_container{
+    max-width: 400px;
+   }
+   .slider_card{
+    min-width: 200px;
+   }
+   .slider_container{
+    gap: 20px;
+   }
+   .ptomoteds_button{
+    gap: 3px;
+    margin-left: 5px;
+    margin-right:5px;
+   }
+
+}
+
+@media screen and (max-width:944px){
+    .btn_inp_container{
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width:740px){
+    .btn_inp_container{
+        flex-direction: column-reverse;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .btn_inp{
+        display: flex;
+        align-items: center;
+        max-width: 400px;
+        /* background-color: red; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn_inp_container p{
+        /* background-color: red; */
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:430px){
+    .btn_inp{
+        max-width: 300px;
+    }
+    .btn_inp input{
+        max-width: 190px;
+    }
+    
+}
+
